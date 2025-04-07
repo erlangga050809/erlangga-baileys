@@ -22,12 +22,12 @@ npm install @kangfarrel/felzar-baileys
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
 ```bash
-yarn add @kangfarrel/felzar-baileys@latest
+yarn add @erlangga050809/erlangga-baileys@latest
 ```
 
 Then import your code using:
 ```javascript
-const { default: makeWASocket } = require("@kangfarrel/felzar-baileys")
+const { default: makeWASocket } = require("@erlangga050809/erlangga-baileys")
 ```
 
 # Index
@@ -175,7 +175,7 @@ If the connection is successful, you will see a QR code printed on your terminal
 The phone number can't have `+` or `()` or `-`, only numbers, you must provide country code
 
 ```javascript
-const { default: makeWASocket } = require("@kangfarrel/felzar-baileys")
+const { default: makeWASocket } = require("@erlangga050809/erlangga-baileys")
 
 const sock = makeWASocket({
     // can provide additional config here
@@ -257,8 +257,8 @@ You obviously don't want to keep scanning the QR code every time you want to con
 
 So, you can load the credentials to log back in:
 ```javascript
-const makeWASocket = require("@kangfarrel/felzar-baileys").default;
-const { useMultiFileAuthState } = require("@kangfarrel/felzar-baileys");
+const makeWASocket = require("@erlangga050809/erlangga-baileys").default;
+const { useMultiFileAuthState } = require("@erlangga050809/erlangga-baileys");
 
 const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
@@ -298,8 +298,8 @@ sock.ev.on('messages.upsert', ({ messages }) => {
 > This example includes basic auth storage too
 
 ```javascript
-const makeWASocket = require("@kangfarrel/felzar-baileys").default;
-const { DisconnectReason, useMultiFileAuthState } = require("@kangfarrel/felzar-baileys");
+const makeWASocket = require("@erlangga050809/erlangga-baileys").default;
+const { DisconnectReason, useMultiFileAuthState } = require("@erlangga050809/erlangga-baileys");
 const Boom = require('@hapi/boom');
 
 async function connectToWhatsApp () {
@@ -381,7 +381,7 @@ sock.ev.on('messages.update', event => {
 It can be used as follows:
 
 ```javascript
-const makeWASocket = require("@kangfarrel/felzar-baileys").default;
+const makeWASocket = require("@erlangga50809/erlangga-baileys").default;
 const { makeInMemoryStore } = require("@kangfarrel/felzar-baileys");
 // the store maintains the data of the WA connection in memory
 // can be written out to a file & read from it
