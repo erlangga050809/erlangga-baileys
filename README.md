@@ -1,10 +1,4 @@
-# <div align='center'>WhatsApp Web API</div>
 
-<div align='center'>
-
-![WhatsApp Web API](https://raw.githubusercontent.com/Bell575/Upload/main/uploads/1742560551338.false)
-
-</div>
 
 ## Example
 
@@ -17,7 +11,7 @@ Here is an example you can use: [example.ts](Example/example.ts) or here is a tu
 
 Use the stable version:
 ```bash
-npm install @kangfarrel/felzar-baileys
+npm install @erlangga050809/erlangga-baileys
 ```
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
