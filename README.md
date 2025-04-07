@@ -148,7 +148,7 @@ WhatsApp provides a multi-device API that allows Baileys to be authenticated as 
 > You can customize browser name if you connect with **QR-CODE**, with `Browser` constant, we have some browsers config, **see [here](https://baileys.whiskeysockets.io/types/BrowsersMap.html)**
 
 ```javascript
-const { default: makeWASocket } = require("@kangfarrel/felzar-baileys")
+const { default: makeWASocket } = require("@erlangga050809/erlangga-baileys")
 
 
 const sock = makeWASocket({
